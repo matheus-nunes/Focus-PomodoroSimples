@@ -1,0 +1,101 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    font-size: 62.5%;
+    --bg-color: #121214;
+
+    --base-color: 1000;
+    --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);  
+    --primary-color: hsl(var(--base-color), 100%, 63%);
+    
+    
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 8.8rem;
+}
+
+body {
+
+    background-color: var(--bg-color);
+
+    
+}
+
+.play svg path,
+.pause svg path,
+.som svg path{
+
+    fill: var(--primary-color);
+}
+
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15%;
+    
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+    
+}
+
+.hide {
+    display: none;
+}
+
+#controls {
+
+    background-color: var(--bg-primary-light);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 99999px;
+    margin: auto;
+    width: 15rem;
+    height: 7rem;
+    gap: 1rem;
+    
+}
+
+footer {
+    
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
